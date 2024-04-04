@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+    <base target="_blank">
+    <link rel="stylesheet" href="style_js.css"><!-- підключення css файлу -->
+</head>
+<body>
+    <header>
+        <h1>Java Script</h1>
+    </header>
+    <main> 
+        <div class='lab'> 
+            <textarea id="text-input"></textarea><br>
+
+            <button onclick="toggleBold()" class='glowing-btn'>Товстий</button>
+            <button onclick="toggleItalic()" class='glowing-btn'>Курсив</button>
+            <button onclick="toggleUnderline()" class='glowing-btn'>Підкреслити</button>
+
+            <select id="font-size" class='glowing-btn'>
+                <option value="20px">20</option>
+                <option value="30px">30</option>
+                <option value="40px">40</option>
+                <option value="50px">50</option>
+            </select>
+
+            <input type="color" id="font-color" class="input-color"><br>
+
+            <button onclick="alignLeft()" class='glowing-btn'>По лівому краю</button>
+            <button onclick="alignCenter()" class='glowing-btn'>По центру</button>
+            <button onclick="alignRight()" class='glowing-btn'>По правому краю</button><br>
+
+            <button onclick="clearText()" class='glowing-btn'>Очистити текст</button>
+            <button onclick="animateText()" class='glowing-btn'>Анімація тексту</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Something~. Усі права захищені.</p>
+    </footer>
+    <!-- підключення js -->
+    <script src="js/lab3.js"></script>
+</body>
+</html>
